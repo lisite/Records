@@ -3,6 +3,7 @@ baseURL = "https://lisite.github.io/"
 languageCode = "en-us"
 title = "Forty"
 theme = "forty"
+publishDir = "public"
 
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = ""

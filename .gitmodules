@@ -1,0 +1,4 @@
+[submodule "public"]
+	path = public
+	url = git@github.com:lisite/lisite.github.io.git
+	branch = master
