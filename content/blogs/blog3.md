@@ -1,12 +1,14 @@
 ---
-title: "一"
-description: "Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus."
+title: "{react, redux} 🆚 {vue, vueX}"
+description: "都是单页面应用，虚拟DOM提升渲染效率"
 slug: "tempus"
 image: pic08.jpg
 keywords: ""
 categories: 
     - ""
     - ""
-date: 2017-10-31T22:26:13-05:00
+date: 2018-03-31T22:26:13-05:00
 draft: false
 ---
+
+待补充～

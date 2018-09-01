@@ -2,7 +2,7 @@
 title: "HTML5 API"
 description: "HTML5 持续让前端发挥更大的可能"
 slug: "HTML5"
-# image: html5.svg
+image: HTML5_sticker.svg
 keywords: "HTML5 api"
 categories: 
     - ""
@@ -10,6 +10,8 @@ categories:
 date: 2018-04-16T22:42:51-05:00
 draft: false
 ---
+
+<a href="https://developer.mozilla.org/zh-CN/docs/Web/Guide/HTML/HTML5" class="icon alt fa-html5 center floating" target="blank"><span class="label">html5</span></a>
 
 ### 1、Camera API
 
@@ -47,7 +49,7 @@ draft: false
 ```
 <progress style="background: #fff" value="388" max="666">388</progress>
 
-谷歌上样式显示还不错，IE10支持，Andriod未实现
+谷歌上样式显示还不错，IE10支持
 
 
 
