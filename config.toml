@@ -49,16 +49,28 @@ disqusShortname = ""
       url = "#"
 
     [[params.navigation.links]]
-      name = "文章"
-      url = "blogs"
+      name = "故事"
+      url = "stories"
 
     [[params.navigation.links]]
-      name = "模版"
-      url = "blogs/ipsum"
+      name = "javascript"
+      url = "js"
 
     [[params.navigation.links]]
-      name = "元素"
-      url = "elements.html"
+      name = "页面展示总结"
+      url = "pages"
+    
+    [[params.navigation.links]]
+      name = "react"
+      url = "react"
+
+    [[params.navigation.links]]
+      name = "vue"
+      url = "vue"
+
+    [[params.navigation.links]]
+      name = "配置汇总"
+      url = "config"
 
     # Add custom links here by uncommenting code below. To remove links just delete
     # the [[params.navigation.links]] map associated with that link. Copy and paste
@@ -93,40 +105,40 @@ disqusShortname = ""
     # Display your showcases here.
     
     [[params.tiles.showcase]]
-      title = "我"
-      subtitle = "Ipsum Dolor Sit Amet"
+      title = "stroy"
+      subtitle = "各种故事"
       image = "pic01.jpg"
-      url = "blogs/aliquam"
+      url = "stories"
 
     [[params.tiles.showcase]]
-      title = "是"
-      subtitle = "Feugiat Amet Tempus"
+      title = "Javascript"
+      subtitle = "js的主场"
       image = "pic02.jpg"
-      url = "blogs/tempus"
+      url = "js"
 
     [[params.tiles.showcase]]
-      title = "一"
-      subtitle = "Lorem Etiam Nullam"
+      title = "关于页面展示"
+      subtitle = "css和html相关"
       image = "pic03.jpg"
-      url = "blogs/magna"
+      url = "pages"
 
     [[params.tiles.showcase]]
-      title = "个"
-      subtitle = "Nisl Sed Aliquam"
+      title = "React"
+      subtitle = "reactjs相关"
       image = "pic04.jpg"
-      url = "blogs/ipsum"
+      url = "react"
 
     [[params.tiles.showcase]]
-      title = "前"
-      subtitle = "Ipsum Dolor Sit Amet"
+      title = "Vue"
+      subtitle = "vue及相关"
       image = "pic05.jpg"
-      url = "blogs/ipsum"
+      url = "vue"
 
     [[params.tiles.showcase]]
-      title = "端"
-      subtitle = "Feugiat Amet Tempus"
+      title = "backend"
+      subtitle = "nodejs linux 以及各种环境配置..."
       image = "pic06.jpg"
-      url = "blogs/ipsum"
+      url = "config"
     # You can make more showcases by copy and pasting the code above
 
   [params.blog]
@@ -139,12 +151,8 @@ disqusShortname = ""
   # Section Type Two
   [params.two]
     enable = true
-    title = "Massa libero"
-    subtitle = """Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. 
-    Mauris aliquet magna magna sed nunc rhoncus pharetra. 
-    Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. 
-    Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero.
-    Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus."""
+    title = "人最大的智慧是什么"
+    subtitle = "—— 人最大的智慧就是，等待和期望 "
     buttonText = "Get Started"
     url = "blogs"
 
