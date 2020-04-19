@@ -1,5 +1,6 @@
 ---
 title: "Git工作流"
+description: "Git flow, Github flow, Gitlab flow"
 date: 2018-10-31T09:42:45+08:00
 draft: false
 ---

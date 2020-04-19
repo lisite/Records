@@ -1,5 +1,6 @@
 ---
 title: "前端nginx配置"
+description: "前端开发必备技能之一"
 date: 2018-09-19T22:16:52+08:00
 draft: false
 ---

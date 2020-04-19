@@ -1,5 +1,6 @@
 ---
 title: "Git命令珍藏"
+description: "用的很少, 但能起到关键作用"
 date: 2018-10-10T17:07:59+08:00
 draft: false
 ---
