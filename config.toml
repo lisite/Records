@@ -39,7 +39,7 @@ disqusShortname = ""
   # Navigation Section
   [params.navigation]
     title = "大西瓜"
-    subtitle = "By HTML5 Up"
+    subtitle = "🍉 👶"
     menu = "菜单"
     # Optional logo as brand stored in img/
     # logo = "logo.png"
@@ -67,6 +67,10 @@ disqusShortname = ""
     [[params.navigation.links]]
       name = "vue"
       url = "vue"
+
+    [[params.navigation.links]]
+      name = "svg"
+      url = "svg"
 
     [[params.navigation.links]]
       name = "配置汇总"
