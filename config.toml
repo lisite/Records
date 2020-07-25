@@ -1,9 +1,10 @@
 # Site settings
-baseURL = "https://lisite.github.io/"
+baseURL = "/"
+# baseURL = "https://lisite.run/"
 languageCode = "en-us"
 title = "Forty"
 theme = "forty"
-publishDir = "public"
+publishDir = "build"
 
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = ""
