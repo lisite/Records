@@ -3,12 +3,21 @@ const uglify = require('gulp-uglify');
 const htmlmin = require('gulp-htmlmin');
 const cssmin = require('gulp-cssmin');
 const imagemin = require('gulp-imagemin');
+const clean = require('gulp-clean');
 // const copyFile = require('gulp-copy');
+
+// 清除文件夹
+function cleanFile() {
+  return src('public/',{ read: false })
+    .pipe(clean());
+}
 
 // 压缩js
 function minifyJs() {
   return src(['./build/**/*.js', '!./build/**/vanilla-tilt.min.js'])
-    .pipe(uglify())
+    .pipe(uglify({
+      compress: true,//类型：Boolean 默认：true 是否完全压缩
+    }))
     .pipe(dest('public/js/'))
 }
 
@@ -66,5 +75,5 @@ function minifyhtml() {
 // exports.build = parallel(minifyhtml)
 // series 顺序执行任务
 // parallel最大并大执行任务
-exports.default = series(minifyhtml, minCss, minifyJs, copy);
+exports.default = series(cleanFile, minifyhtml, minCss, minifyJs, copy);
 // exports.build = series(minifyhtml, minCss, minifyJs, copy);
