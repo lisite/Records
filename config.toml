@@ -119,7 +119,7 @@ disqusShortname = ""
       title = "Javascript"
       subtitle = "js的主场"
       image = "pic02.jpg"
-      url = "js"
+      url = "javascripts"
 
     [[params.tiles.showcase]]
       title = "关于页面展示"
