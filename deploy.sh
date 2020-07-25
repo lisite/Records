@@ -9,6 +9,8 @@ hugo -t forty # if using a theme, replace with `hugo -t <YOURTHEME>`
 # minify all files in dist floder
 gulp
 
+echo '✅压缩工作已完成!!!'
+
 # Go To Public folder
 cd public
 # Add changes to git.

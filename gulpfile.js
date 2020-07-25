@@ -3,28 +3,14 @@ const uglify = require('gulp-uglify');
 const htmlmin = require('gulp-htmlmin');
 const cssmin = require('gulp-cssmin');
 const imagemin = require('gulp-imagemin');
-const clean = require('gulp-clean');
-// const copyFile = require('gulp-copy');
-
-// 清除文件夹
-function cleanFile() {
-  return src('public/',{ read: false })
-    .pipe(clean());
-}
 
 // 压缩js
 function minifyJs() {
-  return src(['./build/**/*.js', '!./build/**/vanilla-tilt.min.js'])
+  return src(['build/*.js', '!build/**/vanilla-tilt.min.js'], {base: './'})
     .pipe(uglify({
       compress: true,//类型：Boolean 默认：true 是否完全压缩
     }))
-    .pipe(dest('public/js/'))
-}
-
-// 转移不需要打包的js文件
-function copy() {
-  return src('./build/**/vanilla-tilt.min.js')
-    .pipe(dest('public/js/'))
+    .pipe(dest('public/'))
 }
 
 // 压缩图片
@@ -46,9 +32,9 @@ function imgMin() {
 
 // 压缩css
 function minCss() {
-  return src('./build/**/*.css')
+  return src('build/*.css', {base: './'})
     .pipe(cssmin())
-    .pipe(dest('public/css/'))
+    .pipe(dest('public/'))
 }
 
 function minifyhtml() {
@@ -56,24 +42,15 @@ function minifyhtml() {
     .pipe(htmlmin({
       removeComments: true,       // 清除HTML注释
       collapseWhitespace: true,   // 压缩HTML
-      minifyJS: true,             // 压缩页面JS
-      minifyCSS: true             // 压缩页面CSS
+      // minifyJS: true,             // 压缩页面JS
+      // minifyCSS: true             // 压缩页面CSS
     }))
     .pipe(dest('public/'));
 }
 
-// function css(cb) {
-//   cb()
-  
-// }
-
-// function html(cb) {
-//   cb()
-
-// }
 
 // exports.build = parallel(minifyhtml)
 // series 顺序执行任务
 // parallel最大并大执行任务
-exports.default = series(cleanFile, minifyhtml, minCss, minifyJs, copy);
+exports.default = series(minifyhtml, minCss, minifyJs);
 // exports.build = series(minifyhtml, minCss, minifyJs, copy);
