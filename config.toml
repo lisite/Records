@@ -55,7 +55,7 @@ disqusShortname = ""
 
     [[params.navigation.links]]
       name = "javascript"
-      url = "js"
+      url = "javascripts"
 
     [[params.navigation.links]]
       name = "页面展示总结"
