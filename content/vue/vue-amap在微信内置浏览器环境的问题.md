@@ -1,6 +1,6 @@
 ---
 title: "vue-amap在微信内置浏览器环境的问题"
-slug: "vue"
+slug: "vue-amap"
 descripts: "vue-amap 微信 h5 公众号开发"
 date: 2020-08-07T15:30:26
 draft: false
