@@ -1,11 +1,14 @@
-<!--
- * @Author: codeleeter@gmail.com
- * @Date: 2020-07-29 16:08:45
- * @LastEditTime: 2020-07-29 20:02:22
- * @LastEditors: Please set LastEditors
- * @Description: In User Settings Edit
- * @FilePath: /hugo/react.md
--->
+---
+title: "React Hooks Record"
+description: "OH, HOOKS"
+slug: "hooks"
+keywords: ""
+categories: 
+    - ""
+    - ""
+date: 2020-07-28T22:26:13-05:00
+draft: false
+---
 
 ### React Hooks Record
 

@@ -1,7 +1,7 @@
 ---
 title: 'node如何更好的使用数据库'
 description: "node如何更好的使用数据库"
-slug: "tempus"
+slug: "hooks"
 date: 2020-05-22T08:26:13-05:00
 draft: false
 ---
